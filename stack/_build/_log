@@ -1,0 +1,12 @@
+### Starting build.
+# Target: /home/anirudh/.opam/default/bin/ocamlc.opt -config, tags: {  }
+/home/anirudh/.opam/default/bin/ocamlc.opt -config
+# Target: stack.mli.depends, tags: { extension:mli, file:stack.mli, ocaml, ocamldep, quiet }
+/home/anirudh/.opam/default/bin/ocamldep.opt -modules stack.mli > stack.mli.depends
+# Target: stack.cmi, tags: { byte, compile, extension:mli, file:stack.mli, interf, ocaml, quiet }
+/home/anirudh/.opam/default/bin/ocamlc.opt -c -o stack.cmi stack.mli
+# Target: stack.ml.depends, tags: { extension:ml, file:stack.ml, ocaml, ocamldep, quiet }
+/home/anirudh/.opam/default/bin/ocamldep.opt -modules stack.ml > stack.ml.depends
+# Target: stack.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:stack.cmo, file:stack.ml, implem, ocaml, quiet }
+/home/anirudh/.opam/default/bin/ocamlc.opt -c -o stack.cmo stack.ml
+# Compilation successful.

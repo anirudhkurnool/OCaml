@@ -1,0 +1,6 @@
+"Rule: ocaml: mli -> cmi (%=stack )": "|\030.kf%S\159\150'~\130\208\248*."
+"Resource: /home/anirudh/Desktop/LearnOcaml/stack/stack.mli": ".\142\129\216\188\242\255\184\196\218\243\232\215\186\250\209"
+"Rule: ocaml dependencies ml (%=stack )": "\176\205-t\212\186\250\173\017\1788\218\218CHL"
+"Rule: ocaml: ml & cmi -> cmo (%=stack )": "\146v\143\204\208y\213\151\0275i\196lDM\016"
+"Resource: /home/anirudh/Desktop/LearnOcaml/stack/stack.ml": "\017\140g\006\016\196G\178\159\001\004\212j\195#\208"
+"Rule: ocaml dependencies mli (%=stack )": "\214\211\011\2101\016D\t+\136\212x\254\179\253G"
